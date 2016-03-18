@@ -1,0 +1,24 @@
+//
+   Created by e9001448 on 3/18/2016.
+
+doctype html
+html
+    head
+        link(rel='stylesheet', href='/css/index.css')
+        title My World Wide Web
+    body
+        .header
+            h1.page-title My World Wide Web
+
+        ul.nav
+            li:a(href='/') Home
+            li:a(href='#news') News
+            li:a(href='#about') About
+            li:a(href='#contact') Contact
+
+
+        .main-content
+            block content
+
+        .footer
+            p CopyRight @ praneeth website
